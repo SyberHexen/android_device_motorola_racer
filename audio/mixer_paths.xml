@@ -536,7 +536,7 @@
 	</path>
 
 	<path name="low-latency-record">
-		<ctl name="MultiMedia5 Mixer SEN_MI2S_TX" value="1" />
+		<ctl name="MultiMedia8 Mixer SEN_MI2S_TX" value="1" />
 	</path>
 
 	<path name="low-latency-record bt-sco">
@@ -906,10 +906,6 @@
 	</path>
 
 	<path name="headphones">
-		<ctl name="AIF2TX1 Input 3" value="None" />
-		<ctl name="RCV GLOBAL_EN from GPIO" value="0" />
-		<!-- Set sample rate to 48kHz -->
-		<ctl name="AIF2 Capture-RCV AMP Playback" value="Anonymous Configuration 0" />
 		<ctl name="SEN_MI2S_RX Channels" value="Two" />
 		<ctl name="ISRC2INT1 Input 1" value="AIF1RX1" />
 		<ctl name="HPOUT1L Input 1" value="ISRC2INT1" />
