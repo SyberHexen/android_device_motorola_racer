@@ -65,6 +65,64 @@ vendor/firmware/marley-dsp2-aov-frontend.wmfw
 vendor/firmware/marley-dsp2-aov-vrgain.bin
 vendor/firmware/marley-dsp3-aov-control.wmfw
 
+# Audio
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libadm.so
+vendor/lib/libaudcal.so
+vendor/lib/libaudioconfigstore.so
+vendor/lib/libaudioalsa.so
+vendor/lib/libaudioparsers.so
+vendor/lib/libdrc.so
+vendor/lib/libqtigef.so
+vendor/lib/libsurround_3mic_proc.so
+vendor/lib64/libacdb-fts.so
+vendor/lib64/libacdbloader.so
+vendor/lib64/libacdbrtac.so
+vendor/lib64/libadiertac.so
+vendor/lib64/libaudcal.so
+vendor/lib64/libaudioconfigstore.so
+vendor/lib64/libaudioalsa.so
+vendor/lib64/libaudioparsers.so
+
+# Bluetooth Audio
+vendor/lib/hw/audio.bluetooth_qti.default.so
+vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
+vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
+vendor/lib/btaudio_offload_if.so
+vendor/lib/libbluetooth_audio_session_qti.so
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so
+vendor/lib64/hw/audio.bluetooth_qti.default.so
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
+vendor/lib64/btaudio_offload_if.so
+vendor/lib64/libbluetooth_audio_session_qti.so
+vendor/lib64/libqtigef.so
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
+
+# Bluetooth
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
+vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
+vendor/lib/libbt-hidlclient.so
+vendor/lib/libbtnv.so
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
+system_ext/lib64/com.qualcomm.qti.ant@1.0.so
+vendor/lib64/libbt-hidlclient.so
+vendor/lib64/libbtnv.so
+
+# Bluetooth (aptX)
+lib64/libaptX_encoder.so
+lib64/libaptXHD_encoder.so
+
 # Camera (VL53l1)
 vendor/bin/vl53l1_daemon
 vendor/lib64/libvl53l1_daemon.so
@@ -209,6 +267,14 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 # Camera (Firmware)
 vendor/firmware/CAMERA_ICP.elf
 
+# CDSP
+vendor/bin/cdsprpcd
+vendor/etc/init/vendor.qti.cdsprpc-service.rc
+vendor/lib/libcdsp_default_listener.so
+vendor/lib/libcdsprpc.so
+vendor/lib64/libcdsp_default_listener.so
+vendor/lib64/libcdsprpc.so
+vendor/lib64/libsdsprpc.so
 
 # Charger
 vendor/bin/charge_only_mode
