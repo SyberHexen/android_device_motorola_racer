@@ -53,8 +53,6 @@ PRODUCT_PACKAGES += \
     init.qti.fm.sh \
     qcom.fmradio
 
-PRODUCT_BOOT_JARS += qcom.fmradio
-
 # Init
 PRODUCT_PACKAGES += \
     init.mmi.laser.sh \
