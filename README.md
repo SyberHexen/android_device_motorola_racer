@@ -18,10 +18,6 @@ Front Camera | 25 MP (f/2.0)
 
 ![Device Picture](https://fdn2.gsmarena.com/vv/pics/motorola/motorola-edge-midnight-magenta-1.jpg)
 
-### Kernel Source
-
-See /prebuilt/README.md
-
 ### How to compile
 
 ```sh
