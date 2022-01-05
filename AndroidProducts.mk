@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_racer.mk
+    $(LOCAL_DIR)/aosp_racer.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_racer-eng \
-    lineage_racer-user \
-    lineage_racer-userdebug
+    aosp_racer-eng \
+    aosp_racer-user \
+    aosp_racer-userdebug
